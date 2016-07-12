@@ -1,0 +1,36 @@
+{
+  "name": "nsk-reducer",
+  "version": "0.1.0",
+  "description": "Simple utility for reducing redux reducer boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriknelson/nsk-reducer.git"
+  },
+  "keywords": [
+    "redux",
+    "reducer",
+    "boilerplate",
+    "switch",
+    "action",
+    "handler"
+  ],
+  "author": "Erik Nelson <erik@nsk.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eriknelson/nsk-reducer/issues"
+  },
+  "homepage": "https://github.com/eriknelson/nsk-reducer#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "immutable": "^3.8.1"
+  }
+}
